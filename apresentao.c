@@ -2,7 +2,7 @@
  * Criar um programa que: * 1. Solicite nome, idade e curso do usuário 
  * 2. Exiba uma mensagem de boas-vindas personalizada 
  * 3. Calcule em que ano a pessoa nasceu 
-*/
+ */
 
 #include <stdio.h>
 

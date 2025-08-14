@@ -3,7 +3,7 @@
  * 1. Leia dois números 
  * 2. Realize as quatro operações básicas 
  * 3. Exiba os resultados formatados 
-*/
+ */
 
 #include <stdio.h>
 
