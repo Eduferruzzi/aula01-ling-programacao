@@ -8,16 +8,16 @@
 #include <stdio.h>
 
 int main() {
-    int a, b;
+    float a, b;
 
     printf("Digite o primeiro numero: ");
-    scanf("%d", &a);
+    scanf("%f", &a);
     printf("Digite o segundo numero: ");
-    scanf("%d", &b);
+    scanf("%f", &b);
 
-    printf("Soma: %d\n", a + b);
-    printf("Subtracao: %d\n", a - b);
-    printf("Multiplicacao: %d\n", a * b);
+    printf("Soma: %.2f\n", a + b);
+    printf("Subtracao: %.2f\n", a - b);
+    printf("Multiplicacao: %.2f\n", a * b);
 
     if (b == 0) {
         printf("Erro, divisao por zero.\n");
